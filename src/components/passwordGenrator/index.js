@@ -74,7 +74,6 @@ const PasswordGeneratorModule = () => {
 					className="form-range"
 				/>
 			</Form.Group>
-
 			<Form.Group className="mb-3" controlId="formIncludeNumbers">
 				<Form.Check
 					type="checkbox"
