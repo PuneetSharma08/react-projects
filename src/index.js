@@ -5,12 +5,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import PasswordGenrator from "./components/passwordGenrator";
+import ToastModule from "./components/customToast";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<PasswordGenrator />
+		<ToastModule />
 	</React.StrictMode>,
 );
 
